@@ -97,6 +97,7 @@ String array[] ={"aa","bb","cc","dd"};
                         CheckBox check= layout.findViewById(R.id.check);
                         String s = "입력문자열: "+text.getText()+",체크박스선택:"+check.isChecked();
                         Toast.makeText(MainActivity.this,s,Toast.LENGTH_SHORT).show();
+
                     }
                 });
                 d4.show();
