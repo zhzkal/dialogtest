@@ -93,7 +93,7 @@ String array[] ={"aa","bb","cc","dd"};
                 d4.setPositiveButton("확인", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
-                        EditText text = layout.findViewById(R.id.text);
+                        EditText text = layout.findViewById(R.id.edit);
                         CheckBox check= layout.findViewById(R.id.check);
                         String s = "입력문자열: "+text.getText()+",체크박스선택:"+check.isChecked();
                         Toast.makeText(MainActivity.this,s,Toast.LENGTH_SHORT).show();
